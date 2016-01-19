@@ -1,0 +1,27 @@
+
+Primary Color: #5AEC86
+
+Black: #444444
+
+Off White (bluish): #edfcff
+
+Green: #1d9943
+Blue: #1D8194
+Yellow: #69A21F
+Red: #A63220
+
+
+Primary Color:
+5AEC86	5FB178	1D9943	84F6A6	A2F6BB
+Secondary Color A:
+5ACDE3	5D9EAA	1D8194	84E0F1	EDFCFF
+Secondary Color B:
+B6F95F	95BA64	69A21F	C9FC87	D7FCA6
+Complementary Color:
+FF7761	BF7367	A63220	FF9989	FFB4A8
+
+Source: colorschemedesigner.com/csd-3.5
+RGB: 5AEC86
+Hue: 185*
+Angle: 28*
+Accented analogic

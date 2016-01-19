@@ -1,0 +1,122 @@
+/* Spreadsheet Styles */
+
+table.spreadsheet{
+    margin: 2em;
+    border: 1px solid #444444;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #444444;
+}
+
+table.spreadsheet tbody, table.spreadsheet thead{
+    display: block;
+}
+
+table.spreadsheet tbody{
+    height: 700px;
+    overflow-y: auto;
+}
+
+table.spreadsheet th, table.spreadsheet td{
+    margin: 0;
+    padding: .3em .5em;
+}
+
+table.spreadsheet th{
+    background-color: #444444;
+}
+
+table.spreadsheet th a{
+    display: block;
+    text-shadow: 1px 1px 0px #222222;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+table.spreadsheet th a .sort-arrow{
+    float: right;
+    margin: .1em;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -1000px;
+    background-image: url("img/sort-arrows.png");
+}
+
+table.spreadsheet th a:hover .sort-arrow{background-position: 0 -32px;}
+table.spreadsheet th#descending a .sort-arrow {background-position: 0 -64px;}
+table.spreadsheet th#descending a:hover .sort-arrow{background-position: 0 -80px;}
+table.spreadsheet th#ascending a .sort-arrow{background-position: 0 -112px;}
+table.spreadsheet th#ascending a:hover .sort-arrow{background-position: 0 -128px;}
+
+table.spreadsheet tr:nth-child(even){
+    background-color: #edfcff;
+}
+
+table.spreadsheet tr:nth-child(odd){
+    background-color: #fff;
+}
+
+table.spreadsheet tr:hover{
+    background-color: #d7fca6;
+}
+
+table.spreadsheet th.date, table.spreadsheet td.date, 
+table.spreadsheet td.date input{width: 6em;}
+
+table.spreadsheet th.description, table.spreadsheet td.description,
+table.spreadsheet td.description select{width: 25em;}
+
+table.spreadsheet th.category, table.spreadsheet td.category,
+table.spreadsheet td.category input{width: 10em;}
+
+table.spreadsheet td.amount, table.spreadsheet td.amount input,
+table.spreadsheet th.amount{width: 6em;}
+
+table.spreadsheet td.amount, table.spreadsheet td.amount input{
+    text-align: right;
+}
+
+table.spreadsheet td.amount em{
+    font-style: normal;
+    color: #1d9943;
+}
+
+table.spreadsheet td.row-edit{width: 4em;}
+table.spreadsheet th.row-edit{width: 5em;}
+     /* ^^Header must be 1-2em bigger to keep columns aligned */
+
+table.spreadsheet .row-edit a{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -1000px;
+}
+
+table.spreadsheet .row-edit a.edit{background-image: url("img/edit.png");}
+table.spreadsheet .row-edit a.delete{background-image: url("img/delete.png");}
+table.spreadsheet .row-edit a.add{background-image: url("img/add.png");}
+table.spreadsheet .row-edit a:hover{background-position: -30px 0;}
+table.spreadsheet .row-edit a:active{background-position: -60px 0;}
+
+table.spreadsheet tr#edit, table.spreadsheet tr#add{
+    border: 2px solid #95ba64;
+    display: block;
+    background-color: #d7fca6;
+}
+
+table.spreadsheet input, table.spreadsheet select{
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    padding: .2em;
+    width: 80%;
+    border: 1px solid #95ba64;
+
+}
+
+table.spreadsheet input{
+}
+
